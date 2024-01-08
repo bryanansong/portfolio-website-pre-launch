@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.text-info {
+		@apply text-blue-500;
+	}
+
+	.background-animate {
+		background-size: 500%;
+
+		-webkit-animation: backgroundAnimation 5s ease infinite;
+		-moz-animation: backgroundAnimation 5s ease infinite;
+		animation: backgroundAnimation 5s ease infinite;
+	}
+
+	@keyframes backgroundAnimation {
+		0%,
+		100% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+	}
+}
