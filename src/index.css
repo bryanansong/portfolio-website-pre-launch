@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,6 +25,36 @@
 		}
 		50% {
 			background-position: 100% 50%;
+		}
+	}
+
+	.loading::after {
+		display: inline-block;
+		animation: dotty steps(1, end) 2s infinite;
+		content: "";
+	}
+
+	@keyframes dotty {
+		0% {
+			content: "";
+		}
+		17% {
+			content: ".";
+		}
+		33% {
+			content: "..";
+		}
+		50% {
+			content: "...";
+		}
+		67% {
+			content: "..";
+		}
+		83% {
+			content: ".";
+		}
+		100% {
+			content: "";
 		}
 	}
 }

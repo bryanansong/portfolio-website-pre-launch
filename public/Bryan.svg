@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="108.08754272460939 14.199996948242188 283.8249145507812 121.60000610351562" style="background: rgba(0, 0, 0, 0);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="editing-reflect" x="-100%" y="-100%" width="300%" height="300%" primitiveUnits="objectBoundingBox">
+      <feFlood flood-color="#704601" result="flood"/>
+      <feComposite operator="in" in="flood" in2="SourceAlpha" result="flood-in"/>
+      <feImage width="100%" height="100%" x="0" y="0" preserveAspectRatio="none" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTMuOTg4OTUyNjM2NzE4NzVweCIgaGVpZ2h0PSI3NC43MDU4NzkyMTE0MjU3OHB4IiB2aWV3Qm94PSIwIDAgMTkzLjk4ODk1MjYzNjcxODc1IDc0LjcwNTg3OTIxMTQyNTc4Ij4KPGRlZnM+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJyZWZsZWN0LWdyYWRpZW50IiB4MT0iMCIgeDI9IjAiIHkxPSIwIiB5Mj0iMSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmY0YjciIHN0b3Atb3BhY2l0eT0iMC4wIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjAuMyIgc3RvcC1jb2xvcj0iI2ZmZjRiNyIgc3RvcC1vcGFjaXR5PSIwLjAiLz4KICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZjRiNyIgc3RvcC1vcGFjaXR5PSIwLjkiLz4KICA8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxwYXRoIGQ9Ik0wIDAgTDAgMzMuNjE3NjQ1NjQ1MTQxNiBROTYuOTk0NDc2MzE4MzU5MzggNDguNTU4ODIxNDg3NDI2NzYgMTkzLjk4ODk1MjYzNjcxODc1IDMzLjYxNzY0NTY0NTE0MTYgTDE5My45ODg5NTI2MzY3MTg3NSAwIFoiIGZpbGw9InVybCgjcmVmbGVjdC1ncmFkaWVudCkiLz4KPC9zdmc+"/>
+      <feComposite operator="in" in="image" in2="SourceAlpha" result="image-in"/>
+      <feGaussianBlur in="flood-in" stdDeviation="0.003 0.03" result="blur"/>
+      <feOffset in="blur" dx="0" dy="0.03" result="offset"/>
+      <feComponentTransfer in="offset" result="comp">
+        <feFuncA type="linear" slope="0.5" intercept="0"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="comp"/>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="image-in"/>
+      </feMerge>
+    </filter>
+    <style>text {
+  font-size: 64px;
+  font-family: Arial Black;
+  dominant-baseline: central;
+  text-anchor: middle;
+}</style>
+  </defs>
+  <g filter="url(#editing-reflect)" transform="matrix(3.4156970977783203, 0, 0, 2.614314079284668, -345.7110088381469, -140.83174553012077)" style="">
+    <g transform="translate(154.79998472332954, 102.86999702453613)">
+      <path d="M 0.45 -0.32 L 8.51 -42.24 C 13.543 -42.667 17.683 -42.88 20.93 -42.88 C 24.17 -42.88 26.837 -42.74 28.93 -42.46 C 31.017 -42.187 32.767 -41.687 34.18 -40.96 C 36.993 -39.593 38.4 -37.033 38.4 -33.28 C 38.4 -31.107 37.46 -29.1 35.58 -27.26 C 33.833 -25.6 32 -24.577 30.08 -24.19 C 32.127 -23.85 33.877 -22.913 35.33 -21.38 C 36.863 -19.753 37.63 -17.683 37.63 -15.17 C 37.63 -10.303 35.817 -6.453 32.19 -3.62 C 28.563 -0.78 23.187 0.64 16.06 0.64 C 11.153 0.64 5.95 0.32 0.45 -0.32 Z M 17.86 -20.61 L 14.66 -4.03 C 15.04 -3.99 15.273 -3.97 15.36 -3.97 L 15.94 -3.97 C 19.433 -3.97 21.927 -5.12 23.42 -7.42 C 24.533 -9.213 25.09 -11.753 25.09 -15.04 C 25.09 -16.787 24.523 -18.13 23.39 -19.07 C 22.263 -20.01 20.42 -20.523 17.86 -20.61 Z M 27.58 -33.22 C 27.58 -36.76 25.873 -38.53 22.46 -38.53 L 21.89 -38.53 C 21.717 -38.53 21.503 -38.507 21.25 -38.46 L 18.69 -24.96 L 19.33 -24.96 C 24.83 -25.087 27.58 -27.84 27.58 -33.22 Z" fill="#f7c551"/>
+    </g>
+  </g>
+</svg>
